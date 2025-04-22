@@ -9,4 +9,7 @@ class ModelDuck extends Duck{
   }
 }
 
-print(ModelDuck.display())
+void main(){
+  Duck model = new ModelDuck();
+  model.display();
+}
